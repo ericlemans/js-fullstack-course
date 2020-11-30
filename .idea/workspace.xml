@@ -19,9 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="Google Oauth implementation v1">
+    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="gitignore fix 2">
+      <change afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/passport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606488427122</updated>
-      <workItem from="1606488428187" duration="3980000" />
+      <workItem from="1606488428187" duration="9053000" />
+      <workItem from="1606732918821" duration="1607000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -93,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606726173721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gitignore fix 1">
+      <created>1606726306922</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606726306922</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,16 +123,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Re-commit" />
     <MESSAGE value="Google Oauth implementation v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Google Oauth implementation v1" />
+    <MESSAGE value="gitignore fix 1" />
+    <MESSAGE value="gitignore fix 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore fix 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606726184376">
+    <state x="277" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606726312198">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606726184376" />
+    <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606726312198" />
+    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1606731207571">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606731207571" />
   </component>
 </project>
