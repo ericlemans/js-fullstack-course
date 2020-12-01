@@ -1,7 +1,7 @@
 const passport = require('passport');
 
 module.exports = (app) => {
-    //Send request for the code to google
+    //Send request for the code to google (GET)
     app.get('/auth/google', passport.authenticate('google', {
         scope: ['profile', 'email']
     }));
@@ -19,6 +19,7 @@ module.exports = (app) => {
     app.get('/api/logout', (req, res) => {
         req.logout();
         res.send(req.user);
+        console.log('user disconnected');
     });
 
     //Authenticate oAuth

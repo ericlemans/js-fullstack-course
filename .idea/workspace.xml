@@ -19,14 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="gitignore fix 3">
-      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="Authentication complete">
+      <change afterPath="$PROJECT_DIR$/config/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/passport.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606488427122</updated>
       <workItem from="1606488428187" duration="9053000" />
-      <workItem from="1606732918821" duration="16513000" />
+      <workItem from="1606732918821" duration="20509000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -120,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606736096888</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Authentication complete">
+      <created>1606771276891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606771276893</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +149,8 @@
     <MESSAGE value="gitignore fix 1" />
     <MESSAGE value="gitignore fix 2" />
     <MESSAGE value="gitignore fix 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore fix 3" />
+    <MESSAGE value="Authentication complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authentication complete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="415" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606735928730">
@@ -155,10 +161,14 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="93" y="93" width="1181" height="685" key="DiffContextDialog/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606736029986" />
-    <state x="277" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606736100226">
+    <state x="550" y="349" key="VCS.EditChangelistDialog" timestamp="1606771301470">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606736100226" />
+    <state x="550" y="349" key="VCS.EditChangelistDialog/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606771301470" />
+    <state x="277" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606771326652">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606771326652" />
     <state x="502" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606735989016">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
