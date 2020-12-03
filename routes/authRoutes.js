@@ -1,6 +1,12 @@
 const passport = require('passport');
 
 module.exports = (app) => {
+
+    app.get('/', (req, res) => {
+        return res.send('Received a GET HTTP method');
+    });
+
+
     //Send request for the code to google (GET)
     app.get('/auth/google', passport.authenticate('google', {
         scope: ['profile', 'email']

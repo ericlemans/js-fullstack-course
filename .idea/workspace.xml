@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="Authentication complete">
-      <change afterPath="$PROJECT_DIR$/config/keys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/prod.js" afterDir="false" />
+    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="Fix keys.js that was crashing">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
@@ -65,6 +63,11 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Web Development\course-udemy\config\_archive" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +77,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606488427122</updated>
       <workItem from="1606488428187" duration="9053000" />
-      <workItem from="1606732918821" duration="20509000" />
+      <workItem from="1606732918821" duration="21320000" />
+      <workItem from="1607030243327" duration="1987000" />
+      <workItem from="1607033224836" duration="1806000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -125,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606771276893</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Production and dev environment set up">
+      <created>1606781000215</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606781000215</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix keys.js that was crashing">
+      <created>1606781258815</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606781258815</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +169,9 @@
     <MESSAGE value="gitignore fix 2" />
     <MESSAGE value="gitignore fix 3" />
     <MESSAGE value="Authentication complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authentication complete" />
+    <MESSAGE value="Production and dev environment set up" />
+    <MESSAGE value="Fix keys.js that was crashing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix keys.js that was crashing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="415" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606735928730">
@@ -165,14 +186,19 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="550" y="349" key="VCS.EditChangelistDialog/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606771301470" />
-    <state x="277" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606771326652">
-      <screen x="0" y="0" width="1368" height="872" />
+    <state x="815" y="-883" key="Vcs.Push.Dialog.v2" timestamp="1606781262466">
+      <screen x="426" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606771326652" />
+    <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606781009205" />
+    <state x="815" y="-883" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@426.-1080.1920.1040" timestamp="1606781262466" />
     <state x="502" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606735989016">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="502" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606735989016" />
+    <state x="395" y="152" width="577" height="566" key="find.popup" timestamp="1607033653564">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="395" y="152" width="577" height="566" key="find.popup/0.0.1368.872@0.0.1368.872" timestamp="1607033653564" />
     <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1606731207571">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
