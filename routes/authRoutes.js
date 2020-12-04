@@ -1,4 +1,6 @@
 const passport = require('passport');
+// const axios = require('axios');
+
 
 module.exports = (app) => {
 
@@ -16,7 +18,7 @@ module.exports = (app) => {
 
 
     //Facebook oAuth
-    app.get('/auth/facebook', passport.authenticate('facebook', ));
+    app.get('/auth/facebook', passport.authenticate('facebook'));
     app.get('/auth/facebook/callback', passport.authenticate('facebook'));
 
 
