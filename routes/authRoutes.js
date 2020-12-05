@@ -1,13 +1,11 @@
 const passport = require('passport');
-// const axios = require('axios');
 
 
 module.exports = (app) => {
 
     app.get('/', (req, res) => {
-        return res.send('Received a GET HTTP method');
-    });
-
+        res.send('This is the index')
+    })
 
     //Send request for the code to google (GET)
     app.get('/auth/google', passport.authenticate('google', {

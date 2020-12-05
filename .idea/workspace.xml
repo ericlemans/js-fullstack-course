@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="Fix keys.js that was crashing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +78,8 @@
       <workItem from="1606488428187" duration="9053000" />
       <workItem from="1606732918821" duration="21320000" />
       <workItem from="1607030243327" duration="1987000" />
-      <workItem from="1607033224836" duration="4025000" />
+      <workItem from="1607033224836" duration="6399000" />
+      <workItem from="1607129052916" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -145,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606781258815</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix keys.js that was crashing">
+      <created>1607070943387</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607070943387</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,11 +197,11 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="550" y="349" key="VCS.EditChangelistDialog/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606771301470" />
-    <state x="815" y="-883" key="Vcs.Push.Dialog.v2" timestamp="1606781262466">
+    <state x="815" y="-883" key="Vcs.Push.Dialog.v2" timestamp="1607070953118">
       <screen x="426" y="-1080" width="1920" height="1040" />
     </state>
     <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606781009205" />
-    <state x="815" y="-883" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@426.-1080.1920.1040" timestamp="1606781262466" />
+    <state x="815" y="-883" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@426.-1080.1920.1040" timestamp="1607070953118" />
     <state x="502" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606735989016">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
