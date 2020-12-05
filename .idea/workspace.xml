@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="Fix keys.js that was crashing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
       <workItem from="1606732918821" duration="21320000" />
       <workItem from="1607030243327" duration="1987000" />
       <workItem from="1607033224836" duration="6399000" />
-      <workItem from="1607129052916" duration="1601000" />
+      <workItem from="1607129052916" duration="1813000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
