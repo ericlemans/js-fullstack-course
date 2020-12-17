@@ -20,9 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="Fix keys.js that was crashing">
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/authReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/setupProxy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/passport.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fullstack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lrnNOW-AWS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,11 +82,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Web Development\course-udemy\client\src\components" />
       <recent name="C:\Web Development\course-udemy\config\_archive" />
     </key>
   </component>
@@ -80,7 +103,13 @@
       <workItem from="1606732918821" duration="21320000" />
       <workItem from="1607030243327" duration="1987000" />
       <workItem from="1607033224836" duration="6399000" />
-      <workItem from="1607129052916" duration="1813000" />
+      <workItem from="1607129052916" duration="8072000" />
+      <workItem from="1607208890242" duration="140000" />
+      <workItem from="1607376360704" duration="2186000" />
+      <workItem from="1607965980645" duration="6384000" />
+      <workItem from="1607980990563" duration="2020000" />
+      <workItem from="1608037143868" duration="614000" />
+      <workItem from="1608224805639" duration="8825000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -181,39 +210,8 @@
     <MESSAGE value="Fix keys.js that was crashing" />
     <option name="LAST_COMMIT_MESSAGE" value="Fix keys.js that was crashing" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="415" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606735928730">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="415" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606735928730" />
-    <state x="93" y="93" width="1181" height="685" key="DiffContextDialog" timestamp="1606736029986">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="93" y="93" width="1181" height="685" key="DiffContextDialog/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606736029986" />
-    <state x="1166" y="-805" key="FileChooserDialogImpl" timestamp="1607070579300">
-      <screen x="426" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="1166" y="-805" key="FileChooserDialogImpl/0.0.1368.872/426.-1080.1920.1040@426.-1080.1920.1040" timestamp="1607070579300" />
-    <state x="550" y="349" key="VCS.EditChangelistDialog" timestamp="1606771301470">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="550" y="349" key="VCS.EditChangelistDialog/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606771301470" />
-    <state x="815" y="-883" key="Vcs.Push.Dialog.v2" timestamp="1607070953118">
-      <screen x="426" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606781009205" />
-    <state x="815" y="-883" key="Vcs.Push.Dialog.v2/0.0.1368.872/426.-1080.1920.1040@426.-1080.1920.1040" timestamp="1607070953118" />
-    <state x="502" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606735989016">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="502" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606735989016" />
-    <state x="395" y="152" width="577" height="566" key="find.popup" timestamp="1607033653564">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="395" y="152" width="577" height="566" key="find.popup/0.0.1368.872@0.0.1368.872" timestamp="1607033653564" />
-    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1606731207571">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1368.872/426.-1080.1920.1040@0.0.1368.872" timestamp="1606731207571" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

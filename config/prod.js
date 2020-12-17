@@ -3,6 +3,7 @@
 module.exports = {
     googleClientID: process.env.GOOGLE_CLIENT_ID,
     googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    googleRedirectURI: `https://js-fullstack-course.herokuapp.com/auth/google/callback`,
     mongoURI: process.env.MONGO_URI,
     cookieKey: process.env.COOKIE_KEY,
     facebookClientID: '2868429433390855',

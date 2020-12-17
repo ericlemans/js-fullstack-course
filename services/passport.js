@@ -23,26 +23,24 @@ passport.use(
         {
             clientID: keys.googleClientID,
             clientSecret: keys.googleClientSecret,
-            callbackURL: '/auth/google/callback'
+            callbackURL: keys.googleRedirectURI,
+            proxy: true
         },
-        (accessToken, refreshToken, profile, done) => {
-            User.findOne({ googleID: profile.id})
-                .then((existingUser) => {
-                    if (existingUser) {
-                        console.log('Existing profile ID, created cookie')
-                        done(null, existingUser);
-                    } else {
-                        // we don't have a user with tthis profile ID, create a new user
-                        new User({
-                                googleID: profile.id,
-                                firstName: profile.name.givenName,
-                                lastName: profile.name.familyName,
-                                email: profile.emails[0].value}
-                            )
-                            .save()
-                            .then(user => done(null, user));
-                    }
-                })
+        async (accessToken, refreshToken, profile, done) => {
+                const existingUser = await User.findOne({ googleID: profile.id})
+                if (existingUser) {
+                    console.log('Existing profile ID, created cookie')
+                    done(null, existingUser);
+                } else  {
+                    // we don't have a user with tthis profile ID, create a new user
+                    const user = await new User({
+                            googleID: profile.id,
+                            firstName: profile.name.givenName,
+                            lastName: profile.name.familyName,
+                            email: profile.emails[0].value
+                            }).save();
+                    done(null, user);
+                }
         }
     ),
 );
@@ -52,7 +50,8 @@ passport.use(
         {
             clientID: keys.facebookClientID,
             clientSecret: keys.facebookClientSecret,
-            callbackURL: '/auth/facebook/callback'
+            callbackURL: '/auth/facebook/callback',
+            proxy: true
         },
         (accessToken, refreshToken, profile, done) => {
             User.findOne({ facebookID: profile.id })

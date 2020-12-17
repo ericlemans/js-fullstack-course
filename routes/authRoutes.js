@@ -12,7 +12,11 @@ module.exports = (app) => {
         scope: ['profile', 'email']
     }));
     //Receive code and let passport exchange auth process
-    app.get('/auth/google/callback', passport.authenticate('google'));
+    app.get(
+        '/auth/google/callback',
+        passport.authenticate('google'),
+        (req, res) => { res.redirect('/surveys'); }
+    );
 
 
     //Facebook oAuth
@@ -24,8 +28,9 @@ module.exports = (app) => {
     //LOGOUT
     app.get('/api/logout', (req, res) => {
         req.logout();
-        res.send(req.user);
+        res.redirect('/');
         console.log('user disconnected');
+
     });
 
     //Authenticate oAuth
