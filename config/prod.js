@@ -8,4 +8,6 @@ module.exports = {
     cookieKey: process.env.COOKIE_KEY,
     facebookClientID: '2868429433390855',
     facebookClientSecret: 'f9b8b3dbfcc8ccea783eb856ab26a60a',
+    stripePublishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
+    stripeSecretKey: process.env.STRIPE_SECRET_KEY
 }

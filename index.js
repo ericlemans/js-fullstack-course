@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
+const bodyParser = require('body-parser');
 const keys = require('./config/keys');
 //call UserModel before we call passport.js
 require('./models/User');
@@ -12,6 +13,10 @@ mongoose.connect(keys.mongoURI, { useNewUrlParser: true, useCreateIndex: true })
 
 const app = express();
 
+
+
+//Middlewares
+app.use(bodyParser.json());
 app.use(
     cookieSession({
         maxAge: 30 * 24 * 60 * 60 * 1000,
@@ -21,19 +26,16 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
+
+
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
 })
 
-
-
-app.get('/api/logout', (req, res) => {
-    req.logout();
-    res.send(req.user);
-    console.log('user disconnected');
-});
-
+app.get('/', (req, res) => {
+    res.send('This is the index')
+})
 
 
 const teams = "teams/C7ntxaoB8wkAjtLMd/";
@@ -55,6 +57,7 @@ app.get('/test', (req, res) => {
 
 //calls the function hosted on /routes/authRoutes.js
 require('./routes/authRoutes')(app);
+require('./routes/billingRoutes')(app);
 
 
 

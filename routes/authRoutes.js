@@ -3,17 +3,14 @@ const passport = require('passport');
 
 module.exports = (app) => {
 
-    app.get('/', (req, res) => {
-        res.send('This is the index')
-    })
-
     //Send request for the code to google (GET)
-    app.get('/auth/google', passport.authenticate('google', {
-        scope: ['profile', 'email']
-    }));
+    app.get('/auth/google',
+        passport.authenticate(
+            'google',
+            {scope: ['profile', 'email']})
+    );
     //Receive code and let passport exchange auth process
-    app.get(
-        '/auth/google/callback',
+    app.get('/auth/google/callback',
         passport.authenticate('google'),
         (req, res) => { res.redirect('/surveys'); }
     );
@@ -24,13 +21,11 @@ module.exports = (app) => {
     app.get('/auth/facebook/callback', passport.authenticate('facebook'));
 
 
-
     //LOGOUT
     app.get('/api/logout', (req, res) => {
         req.logout();
         res.redirect('/');
         console.log('user disconnected');
-
     });
 
     //Authenticate oAuth
