@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="heroku build settings">
+    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="fix versions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <workItem from="1608306054912" duration="5715000" />
       <workItem from="1608466841498" duration="9099000" />
       <workItem from="1608621673665" duration="1585000" />
-      <workItem from="1608911298951" duration="2473000" />
+      <workItem from="1608911298951" duration="4641000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -193,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608911656164</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix versions">
+      <created>1608913809174</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608913809174</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix versions">
+      <created>1608914018741</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608914018741</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +239,8 @@
     <MESSAGE value="Up to class 113" />
     <MESSAGE value="Fallback routes in server and Header" />
     <MESSAGE value="heroku build settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="heroku build settings" />
+    <MESSAGE value="fix versions" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix versions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

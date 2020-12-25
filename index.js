@@ -33,9 +33,9 @@ connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
 })
 
-app.get('/', (req, res) => {
-    res.send('This is the index')
-})
+// app.get('/', (req, res) => {
+//     res.send('This is the index')
+// })
 
 
 const teams = "teams/C7ntxaoB8wkAjtLMd/";
