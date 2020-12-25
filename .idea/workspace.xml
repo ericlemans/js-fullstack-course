@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="Up to class 113">
+    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="heroku build settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <workItem from="1608306054912" duration="5715000" />
       <workItem from="1608466841498" duration="9099000" />
       <workItem from="1608621673665" duration="1585000" />
-      <workItem from="1608911298951" duration="308000" />
+      <workItem from="1608911298951" duration="905000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -187,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608622377303</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="heroku build settings">
+      <created>1608911656164</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608911656164</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +223,8 @@
     <MESSAGE value="Commit full auth cycle and redux implementation plus working header" />
     <MESSAGE value="Up to class 113" />
     <MESSAGE value="Fallback routes in server and Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fallback routes in server and Header" />
+    <MESSAGE value="heroku build settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku build settings" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
