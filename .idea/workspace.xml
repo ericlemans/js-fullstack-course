@@ -22,8 +22,7 @@
     <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="Up to class 113">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,8 @@
       <workItem from="1608302328816" duration="2146000" />
       <workItem from="1608306054912" duration="5715000" />
       <workItem from="1608466841498" duration="9099000" />
-      <workItem from="1608621673665" duration="476000" />
+      <workItem from="1608621673665" duration="1585000" />
+      <workItem from="1608911298951" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608483279541</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fallback routes in server and Header">
+      <created>1608622377303</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608622377303</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +216,8 @@
     <MESSAGE value="Fix keys.js that was crashing" />
     <MESSAGE value="Commit full auth cycle and redux implementation plus working header" />
     <MESSAGE value="Up to class 113" />
-    <option name="LAST_COMMIT_MESSAGE" value="Up to class 113" />
+    <MESSAGE value="Fallback routes in server and Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fallback routes in server and Header" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
