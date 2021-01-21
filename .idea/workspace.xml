@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="fix versions">
+    <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="fix stripe key">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +95,9 @@
       <workItem from="1608466841498" duration="9099000" />
       <workItem from="1608621673665" duration="1585000" />
       <workItem from="1608911298951" duration="4778000" />
+      <workItem from="1609002943394" duration="1721000" />
+      <workItem from="1609181682075" duration="138000" />
+      <workItem from="1611179776214" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -213,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608939294032</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix versions">
+      <created>1609003205208</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609003205208</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix stripe key">
+      <created>1609003789136</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609003789136</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +264,8 @@
     <MESSAGE value="Fallback routes in server and Header" />
     <MESSAGE value="heroku build settings" />
     <MESSAGE value="fix versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix versions" />
+    <MESSAGE value="fix stripe key" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix stripe key" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
