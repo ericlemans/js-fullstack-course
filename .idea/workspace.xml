@@ -96,7 +96,7 @@
       <workItem from="1608911298951" duration="4778000" />
       <workItem from="1609002943394" duration="1721000" />
       <workItem from="1609181682075" duration="138000" />
-      <workItem from="1611179776214" duration="3342000" />
+      <workItem from="1611179776214" duration="3840000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611258449750</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix stripe key">
+      <created>1611259056905</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1611259056905</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
