@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9eb03c58-b033-49d7-92dc-b2accfdce504" name="Default Changelist" comment="fix stripe key">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <workItem from="1608911298951" duration="4778000" />
       <workItem from="1609002943394" duration="1721000" />
       <workItem from="1609181682075" duration="138000" />
-      <workItem from="1611179776214" duration="2756000" />
+      <workItem from="1611179776214" duration="3342000" />
     </task>
     <task id="LOCAL-00001" summary="Re-commit">
       <created>1606488508458</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611257217394</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix stripe key">
+      <created>1611258449749</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611258449750</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
